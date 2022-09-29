@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+body {
+    background-color: #A3FFE3;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2386deff'/%3E%3Cstop offset='1' stop-color='%2386deff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2358b2ff'/%3E%3Cstop offset='1' stop-color='%2358b2ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23433bff'/%3E%3Cstop offset='1' stop-color='%23433bff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23A3FFE3'/%3E%3Cstop offset='1' stop-color='%23A3FFE3' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%236A7FFF'/%3E%3Cstop offset='1' stop-color='%236A7FFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23410CFF'/%3E%3Cstop offset='1' stop-color='%23410CFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;      
+}
+
+.home {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background-color: rgba(2, 0, 32);
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+    border-bottom: 1px solid white;
+}
+
+/* Hasta acá header */
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+
+.formulario {
+    display: inline;
+    text-align: center;
+    font-size: 30px;
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    text-indent: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.guardar {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}

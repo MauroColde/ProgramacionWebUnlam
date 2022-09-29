@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva Direccion</title>
+    <link rel="stylesheet" href="./styles.css/pagar.css">
+    <script src="https://kit.fontawesome.com/a1930243ba.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav>
+        <a class="home" href="index.html">Home</a>
+    </nav>
+    <main>
+      <section>
+        <article class="formu1">
+            <b class="fa-regular fa-circle-xmark" id="Cerrar"></b>
+            <h2>Pagar <i class="fa-solid fa-credit-card"></i></h2>
+            <form action="#">
+                <div>
+                    <label for="Tarjetas">Tarjetas Guardadas</label>
+                    <select name="Tarjetas" id="Tarjetas">
+                        <option value="1">-Seleccionar-</option>
+                    </select>
+                </div>
+                <input class="checkbox" type="checkbox" />
+                <div>
+                    <label for="Direcciones">Direcciones Guardadas</label>
+                    <select name="Direcciones" id="Direcciones">
+                        <option value="1">-Seleccionar-</option>
+                    </select>
+                </div>
+                <input class="checkbox" type="checkbox" />
+
+                <button>PAGAR</button>
+            </form>
+        </article>
+    </section>
+    <section>
+        <article class="formu2">
+            <b class="fa-regular fa-circle-xmark" id="Cerrar"></b>
+            <h2>Pagar <i><i class="fa-solid fa-credit-card"></i></i></h2>
+            <form action="#">
+                <div>
+                    <label for="Tarjetas">Tarjetas Guardadas</label>
+                    <select name="Tarjetas" id="Tarjetas">
+                        <option value="1">-Seleccionar-</option>
+                    </select>
+                </div>
+                <input class="checkbox" type="checkbox" checked />
+                <div>
+                    <label for="numero_tarjeta">Numero Tarjeta</label>
+                    <input name="numero_tarjeta" type="number" pattern="[0-9]{16}"
+                        placeholder="numero tarjeta"></input>
+                </div>
+                <div class="tarjeta">
+                    <label for="codigo">Codigo</label>
+                    <div>
+                        <input type="number" name="codigo" pattern="[0-9]{3}" placeholder="Cod." />
+                        <label for="Vencimiento">Vencimiento</label>
+                        <input type="text" name="Vencimiento" pattern="{5}" placeholder="Vto." />
+                    </div>
+                </div>
+                <div><label for="Nombre_Titutar">Nombre Titutar</label>
+                    <input type="text" name="Nombre_Titutar" pattern="{5}" />
+                </div>
+                <div class="checkboxizquierda"><input class="checkbox" type="checkbox" name="Otra_Direccion" />
+                    <label for="Otra_Direccion">Otra Direccion</label>
+                </div>
+
+                <button>PAGAR</button>
+            </form>
+        </article>
+    </section>
+    </main>
+</body>
+</html>

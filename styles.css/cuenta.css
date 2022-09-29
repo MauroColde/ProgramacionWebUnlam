@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  a:link, a:visited, a:active {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }  
+
+  body {
+    background-color: #57FAFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2394ccff'/%3E%3Cstop offset='1' stop-color='%2394ccff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23399fff'/%3E%3Cstop offset='1' stop-color='%23399fff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23757fff'/%3E%3Cstop offset='1' stop-color='%23757fff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2357FAFF'/%3E%3Cstop offset='1' stop-color='%2357FAFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23D0D4FF'/%3E%3Cstop offset='1' stop-color='%23D0D4FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%231A29FF'/%3E%3Cstop offset='1' stop-color='%231A29FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  nav {
+    background-color: rgba(2, 0, 32);
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    width: 220px;
+    display: block;
+    margin: auto;
+    border-radius: 90px;
+}
+
+/* Hasta acá header */
+
+.boxLogIn {
+    color: rgb(13, 7, 81);
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;  
+    font-weight: 900;
+  }
+
+  input{
+    height: 35px;
+    width: 300px;
+    border-radius: 15px; 
+    text-indent: 10px;
+    font-size: medium;
+  }
+
+  button {
+    height: 25px;
+    width: 160px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+
+  .iniciarSesion {
+    background-color: #4563c5;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  .sinCuenta {
+    margin-top: 16px;
+    color: rgb(47, 109, 137);
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .registrate {
+    font-size: 18px;
+    background-color: antiquewhite;
+    padding: 8px;
+    border-radius: 20px;
+    color: rgb(5, 155, 237) !important;
+  }
